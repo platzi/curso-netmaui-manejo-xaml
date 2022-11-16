@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatziMauiApp.Views.Triggers.TriggerDatoSamplePage"
+             Title="TriggerDatoSamplePage">
+    <VerticalStackLayout Padding="20">
+       <!-- Data Trigger -->
+        <Entry Placeholder="Write a text" x:Name="TextEntry" />
+        
+        <Button Text            ="Click here"
+                BackgroundColor ="LightPink">
+            <Button.Triggers>
+               <DataTrigger TargetType="Button"
+                            Binding   ="{Binding Source={x:Reference TextEntry}, Path=Text}" 
+                            Value     ="Platzi">
+                     <Setter Property="Text"             Value="Welcome to Platzi" />
+                     <Setter Property="TextColor"        Value="Blue" />
+                     <Setter Property="BackgroundColor"  Value="#97ca3f" />   
+               </DataTrigger>
+            </Button.Triggers>
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>

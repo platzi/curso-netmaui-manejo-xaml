@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatziMauiApp.Views.VisualStates.VSMSamplePage"
+             Title="VSMSamplePage">
+    <VerticalStackLayout Padding="20"> 
+         <Label Text="Write your email"/>
+         <Entry x:Name="EntryEmail" 
+                   TextChanged="OnTextChanged">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup Name="EmailValidation">
+                        <VisualState Name="Incorrect">
+                            <VisualState.Setters> 
+                                  <Setter Property="BackgroundColor" Value="#FAE2E8" /> 
+                            </VisualState.Setters>
+                        </VisualState>
+                         <VisualState Name="Correct">
+                            <VisualState.Setters> 
+                                  <Setter Property="BackgroundColor" Value="#CDEEEA" /> 
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Entry>
+    </VerticalStackLayout>
+</ContentPage>
