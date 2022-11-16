@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Converter="clr-namespace:PlatziMauiApp.Views.Converters"
+             x:Name="page"
+             x:Class="PlatziMauiApp.Views.Converters.ConverterSamplePage"
+             Title="ConverterSamplePage">
+   <ContentPage.Resources>
+        <Converter:AgeToStatusConverter x:Key="AgeToStatusConverter"/>
+    </ContentPage.Resources>
+     <VerticalStackLayout  HorizontalOptions="Center" > 
+        <!--<Entry x:Name="Age" Placeholder="Escribe tu edad" FontSize="30"/>
+        <Label FontSize="25" Text="{Binding Source={x:Reference Age}, Path=Text, Converter={StaticResource AgeToStatusConverter}}"/>-->
+        <!--<Label Text="Hola soy un Label" FontSize="{x:OnIdiom 20, Tablet=15, Phone=35}"/>-->
+        <!--<Button Text="Click aqui" TextColor="{OnPlatform Android=Yellow, iOS=Pink}" BackgroundColor="{OnPlatform Android=Red, iOS=Green}"/>-->
+        <!--<Label Text="{Binding Source={x:Reference page}, StringFormat='Esta es una pagina {0}'}" FontSize="25"/>-->
+
+        <CollectionView Margin="30">
+            <CollectionView.ItemsSource> 
+              <x:Array Type="{x:Type Color}">
+                <Color>Green</Color>
+                <Color>Red</Color>
+                <Color>Blue</Color>
+                <Color>Orange</Color>
+              </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+               <DataTemplate> 
+                     <Label Text="Item" FontSize="25" TextColor="{Binding}"/> 
+                </DataTemplate> 
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

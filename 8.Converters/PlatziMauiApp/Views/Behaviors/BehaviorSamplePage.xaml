@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatziMauiApp.Views.Behaviors.BehaviorSamplePage"
+             xmlns:local="clr-namespace:PlatziMauiApp.Views"
+             Title="BehaviorSamplePage">
+    <VerticalStackLayout>
+          <VerticalStackLayout Margin="10,10,10,0">
+                   <Label Text="Personal information"  Margin="0,5,0,0" HorizontalOptions="Center" />
+            
+                   <Label Text="Name:"  />
+                   <Entry Placeholder="Name">
+                      <Entry.Behaviors>
+                         <local:Behaviors.TextValidator />  
+                      </Entry.Behaviors>
+                    </Entry>
+                
+                   <Label Text="Age:"  />
+                   <Entry Placeholder="Age">
+                      <Entry.Behaviors>
+                         <local:Behaviors.NumberValidator /> 
+                      </Entry.Behaviors>
+                    </Entry>
+
+                   <Label Text="Year of birth:"  />
+                   <Entry Placeholder="Year of birth">
+                      <Entry.Behaviors>
+                        <local:Behaviors.NumberValidator />
+                      </Entry.Behaviors>
+                   </Entry>
+                 
+                   <Button Text="Send information" BackgroundColor="#5DADE2" HorizontalOptions="FillAndExpand" HeightRequest="35"/>
+              <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Silver"/>
+           </VerticalStackLayout> 
+    </VerticalStackLayout>
+</ContentPage>

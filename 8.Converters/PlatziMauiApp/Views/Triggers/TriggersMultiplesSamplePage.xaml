@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatziMauiApp.Views.Triggers.TriggersMultiplesSamplePage"
+             Title="TriggersMultiplesSamplePage">
+    <VerticalStackLayout Padding="30">
+        <!-- Multi Trigger -->
+       <Entry  x:Name     ="UserEntry" 
+               Placeholder="Company name"/>
+
+       <Entry  x:Name     ="FullnameEntry" 
+               Placeholder="Your name"/>
+        
+        <Button Text            ="Save"
+                BackgroundColor ="#C39BD3">
+            <Button.Triggers>
+                <MultiTrigger  TargetType ="Button">
+                    <MultiTrigger.Conditions>
+                        <BindingCondition Binding   ="{Binding Source={x:Reference UserEntry}, Path=Text}" 
+                                          Value     ="Platzi" />
+                        <BindingCondition Binding   ="{Binding Source={x:Reference FullnameEntry}, Path=Text.Length}" 
+                                          Value     ="3" /> 
+                    </MultiTrigger.Conditions>
+                      <Setter Property="Text"             Value="Trigger activated" />
+                      <Setter Property="BackgroundColor"  Value="#97ca3f" />   
+                </MultiTrigger>
+            </Button.Triggers>
+        </Button> 
+    </VerticalStackLayout>
+</ContentPage>

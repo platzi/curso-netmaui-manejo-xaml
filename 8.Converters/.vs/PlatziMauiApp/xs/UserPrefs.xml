@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{6F8A8B74-AB83-4567-9C27-AE7CF14E9725}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/leomarisreyes/Platzi Curso 2/8.  - Converter- PlatziMauiApp/PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml" relfile="PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PlatziMauiApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml">
+    <Files>
+      <File FileName="PlatziMauiApp/MainPage.xaml.cs" />
+      <File FileName="PlatziMauiApp/MainPage.xaml" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/SombraSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/App.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/BordesSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/BordesSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/FontScalingSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/ModoClaroyOscuroSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerPropiedadSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/ModoClaroyOscuroSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerDatoSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerDatoSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerSample.cs" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerEventoSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggersMultiplesSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Visual States/VSMSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Platforms/iOS/Program.cs" Line="13" Column="1" />
+      <File FileName="PlatziMauiApp/Views/Visual States/VSMSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/Behaviors/NumberValidator.cs" />
+      <File FileName="PlatziMauiApp/Views/Behaviors/TextValidator.cs" />
+      <File FileName="PlatziMauiApp/Views/Behaviors/BehaviorSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Converters/AgeToStatusConverter.cs" Line="26" Column="34" />
+      <File FileName="PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml" Line="27" Column="60" />
+      <File FileName="PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/MarkUp/ColorClass.cs" Line="6" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlatziMauiApp" expanded="True">
+            <Node name="PlatziMauiApp" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Converters" expanded="True" />
+                <Node name="MarkUp" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.99.36" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
