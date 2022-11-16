@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{6F8A8B74-AB83-4567-9C27-AE7CF14E9725}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlatziMauiApp/MainPage.xaml">
+    <Files>
+      <File FileName="PlatziMauiApp/MainPage.xaml.cs" />
+      <File FileName="PlatziMauiApp/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/BindingSample/Teachers.cs" />
+      <File FileName="PlatziMauiApp/BindingSample/BindingSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/BindingSample/BindingSamplePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/App.xaml.cs" />
+      <File FileName="PlatziMauiApp/Platforms/iOS/Program.cs" />
+      <File FileName="PlatziMauiApp/BindingSample/TeacherViewModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlatziMauiApp" expanded="True">
+            <Node name="PlatziMauiApp" expanded="True">
+              <Node name="BindingSample" expanded="True">
+                <Node name="BindingSamplePage.xaml" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PlatziMauiApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/leomarisreyes/Platzi Curso 2/0. Bindings  &amp; Commands - PlatziMauiApp/PlatziMauiApp/BindingSample/TeacherViewModel.cs" relfile="PlatziMauiApp/BindingSample/TeacherViewModel.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

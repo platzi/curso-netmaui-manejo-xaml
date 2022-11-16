@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{98FD40FE-27D5-4933-A3BA-CE4FA521CF78}|Default">
+  <MonoDevelop.Ide.ItemProperties.PlatziMauiApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlatziMauiApp.csproj">
+    <Files>
+      <File FileName="PlatziMauiApp.csproj" Line="55" Column="63" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlatziMauiApp" expanded="True">
+            <Node name="PlatziMauiApp" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
