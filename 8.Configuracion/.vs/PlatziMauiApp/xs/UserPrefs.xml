@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{6F8A8B74-AB83-4567-9C27-AE7CF14E9725}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlatziMauiApp/Views/Triggers/TriggerSample.cs">
+    <Files>
+      <File FileName="PlatziMauiApp/MainPage.xaml.cs" />
+      <File FileName="PlatziMauiApp/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/SombraSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/BordesSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/BordesSamplePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/FontScalingSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/ModoClaroyOscuroSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerPropiedadSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/ExplorandoFeatures/ModoClaroyOscuroSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerDatoSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerDatoSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerSample.cs" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggerEventoSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Views/Triggers/TriggersMultiplesSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Visual States/VSMSamplePage.xaml" Line="1" Column="1" />
+      <File FileName="PlatziMauiApp/Platforms/iOS/Program.cs" />
+      <File FileName="PlatziMauiApp/Views/Visual States/VSMSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Views/Behaviors/NumberValidator.cs" />
+      <File FileName="PlatziMauiApp/Views/Behaviors/TextValidator.cs" />
+      <File FileName="PlatziMauiApp/Views/Behaviors/BehaviorSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Converters/AgeToStatusConverter.cs" />
+      <File FileName="PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml" />
+      <File FileName="PlatziMauiApp/Views/Converters/ConverterSamplePage.xaml.cs" />
+      <File FileName="PlatziMauiApp/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="PlatziMauiApp/Platforms/Android/MainActivity.cs" Line="10" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlatziMauiApp" expanded="True">
+            <Node name="PlatziMauiApp" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Behaviors" expanded="True" />
+                <Node name="Converters" expanded="True" />
+                <Node name="ExplorandoFeatures" expanded="True">
+                  <Node name="BordesSamplePage.xaml" expanded="True" />
+                </Node>
+                <Node name="Triggers" expanded="True">
+                  <Node name="TriggerSample.cs" selected="True" />
+                </Node>
+                <Node name="Visual States" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PlatziMauiApp PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.99.36" />
+</Properties>

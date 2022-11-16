@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Converter="clr-namespace:PlatziMauiApp.Views.Converters"
+             x:Class="PlatziMauiApp.Views.Converters.ConverterSamplePage"
+             Title="ConverterSamplePage">
+   <ContentPage.Resources>
+        <Converter:AgeToStatusConverter x:Key="AgeToStatusConverter"/>
+    </ContentPage.Resources>
+     <VerticalStackLayout  HorizontalOptions="Center" > 
+        <Entry x:Name="Age" Placeholder="Escribe tu edad" />
+        <Label FontSize="20" Text="{Binding Source={x:Reference Age}, Path=Text, Converter={StaticResource AgeToStatusConverter}}"/>
+    </VerticalStackLayout> 
+</ContentPage>
