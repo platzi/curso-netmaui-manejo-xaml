@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlatziMauiApp.Views.ExplorandoFeatures.BordesSamplePage"
+             Title="BordesSamplePage">
+    <VerticalStackLayout>
+            <Border  
+                Stroke="#97ca3f"
+                Background="WhiteSmoke"
+                StrokeThickness="10"
+                Padding="30,20"
+                HorizontalOptions="Center">
+                 <Border.StrokeShape>
+                      <RoundRectangle CornerRadius="90,45,20,0"/>
+                 </Border.StrokeShape>
+             <Label TextColor="#97ca3f"
+                    Text="Hi! I have a Platzi border!"
+                    FontSize="15"
+                    FontAttributes="Bold" />
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>
