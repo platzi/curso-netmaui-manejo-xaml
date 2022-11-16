@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{6F8A8B74-AB83-4567-9C27-AE7CF14E9725}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PlatziMauiApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.723B38BB-DFB4-43E1-9671-7AD0F3BFADF7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlatziMauiApp/MainPage.xaml">
+    <Files>
+      <File FileName="PlatziMauiApp/MainPage.xaml.cs" />
+      <File FileName="PlatziMauiApp/PlatziMauiApp.csproj" />
+      <File FileName="PlatziMauiApp/MainPage.xaml" Line="13" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlatziMauiApp" expanded="True">
+            <Node name="PlatziMauiApp" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
